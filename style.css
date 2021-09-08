@@ -120,6 +120,7 @@ body {
     align-items: center;
     position: relative;
     text-decoration: none;
+    border: black solid 3px;
 }
 
 .tortb p {
@@ -216,4 +217,23 @@ body {
     background-image: url('img/4.jpg');
     background-position: center;
     background-size: cover;
+}
+
+#btnScrollToTop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(28, 145, 96);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+#btnScrollToTop:active {
+    background-color: rgb(19, 88, 19);
 }

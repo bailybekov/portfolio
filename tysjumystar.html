@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&subset=latin,cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
@@ -25,7 +27,17 @@
         танысты. Ерлік пен ептілікке спорт арқылы жетуге болатынын ойларына сіңірді. Нұрдәулет Байжомартұлы білім алушыларды жігерлендіру арқылы спортқа деген ниетін шабыттандырды.<br>
         <a href="https://m.facebook.com/story.php?story_fbid=421801428827057&id=100029916107498&sfnsn=mo">Сілтемені басыңыз</a>
     </div>
-
+    <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    <script>
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+        btnScrollToTop.addEventListener("click", function() {
+            $("html, body").animate({
+                scrollTop: 0
+            }, "slow");
+        });
+    </script>
 </body>
 
 </html>
