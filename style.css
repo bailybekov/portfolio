@@ -120,7 +120,7 @@ body {
     align-items: center;
     position: relative;
     text-decoration: none;
-    border: black solid 3px;
+    border: black solid 0.5px;
 }
 
 .tortb p {
